@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* 폰트 불러오기 */
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    color:#333;
+    line-height: 1;
+    
+}
+
+/* 😊.cont01 */
+.cont01 {
+    padding:  100px 0;
+    background-color: antiquewhite;
+    
+}
+.cont01 .inner {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.cont01 .inner h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.cont01 .inner .list {
+    display: flex; /* 가로나열 */
+    justify-content: space-between; /* 수평정렬 */
+    align-items: center; /* 수직정렬 */
+}
+.cont01 .inner .list .youtube_wrap {
+    width: 100%;
+   
+}
+.cont01 .inner .list .youtube_wrap .youtube {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    
+}
+.cont01 .inner .list .youtube_wrap .youtube iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cont01 .inner .list .info {
+    width: 50%;
+    padding: 0 40px;
+}
+.cont01 .inner .list .info strong {
+    background-color: rgba(252, 217, 171, 0.829);
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 7px;
+    display: inline-block;
+    
+}
+
+.cont01 .inner .list .info h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.cont01 .inner .list .info :nth-child(4){
+    margin: 20px 0 40px;
+    line-height: 1.5; /* 글자 위아래 간격 */
+}
+.cont01 .inner .list .info ul li {
+    display: inline-block;
+    background-color: rgb(252, 217, 171);
+    color: rgb(43, 43, 43);
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+   
+}
+.main_visual img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
